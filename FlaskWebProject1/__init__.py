@@ -24,7 +24,7 @@ planets = load('de405.bsp')
 earth = planets['earth']
 PRINCETON_EARTH = skyapi.Topos('40.3440 N', '74.6514 W')
 
-STARS = [skyapi.NamedStar(star) for star in named_stars.named_star_dict.keys()]
+STARS = [skyapi.NamedStar(star) for star in ['Polaris','Betelgeuse']]#named_stars.named_star_dict.keys()]
 
 
 def star_data(stars, loc, time):
