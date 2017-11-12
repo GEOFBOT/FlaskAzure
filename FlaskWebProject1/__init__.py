@@ -3,7 +3,6 @@ from datetime import datetime
 from flask import Flask, jsonify, abort
 from skyfield import api as skyapi
 from skyfield import named_stars
-from astropy.coordinates import SkyCoord
 
 app = Flask(__name__)
 
